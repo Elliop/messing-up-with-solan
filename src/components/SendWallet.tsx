@@ -83,8 +83,8 @@ const SendWallet = () => {
                   zIndex: 1000,
                 }}
               >
-                If you don't know a recipient's public key, you can use this one
-                7zMGX8abib3pdiDqJjUBg64NCrWkj4KXmEwKPPNFNaKg
+                {`If you don't know a recipient's public key, you can use this one
+                7zMGX8abib3pdiDqJjUBg64NCrWkj4KXmEwKPPNFNaKg`}
               </div>
             )}
           </div>
