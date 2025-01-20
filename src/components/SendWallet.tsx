@@ -13,7 +13,7 @@ const SendWallet = () => {
     setShowTooltip(!showTooltip);
   };
 
-  const sendSol = async (event) => {
+  const sendSol = async (event: any) => {
     event.preventDefault();
 
     if (!publicKey) {
