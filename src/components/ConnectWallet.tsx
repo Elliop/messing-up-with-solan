@@ -24,8 +24,8 @@ const Walletconnect = () => {
   }, [connection, publicKey]);
 
   return (
-    <main className="min-h-screen bg-[#121212] text-gray-300">
-      <div className="grid grid-cols-1 lg:grid-cols-4 gap-6 p-6">
+    <main className="bg-[#121212] text-gray-300 w-full flex justify-center items-center">
+      <div className="py-8 max-w-4xl w-full">
         <div className="col-span-1 lg:col-start-2 lg:col-end-4 rounded-xl bg-[#1e1e1e] shadow-lg p-6 border border-gray-700">
           <div className="flex justify-between items-center border-b border-gray-700 pb-4">
             <h2 className="text-2xl lg:text-3xl font-semibold text-white">
