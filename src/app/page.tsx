@@ -1,5 +1,6 @@
 "use client";
 import SendWallet from "@/components/SendWallet";
+import Tokens from "@/components/Tokens";
 import dynamic from "next/dynamic";
 
 const Walletconnect = dynamic(() => import("../components/ConnectWallet"), {
@@ -11,6 +12,7 @@ export default function Home() {
     <div className="min-h-screen bg-[#121212] text-gray-300">
       <Walletconnect />
       <SendWallet />
+      <Tokens />
     </div>
   );
 }
