@@ -14,8 +14,6 @@ const SendWallet = () => {
     if (connection && publicKey) {
       const info = await connection.getAccountInfo(publicKey);
       setBalance(info?.lamports ? info.lamports / web3.LAMPORTS_PER_SOL : 0);
-      console.log(balance);
-      console.log(info?.lamports ? info.lamports / web3.LAMPORTS_PER_SOL : 0);
     } else {
       setBalance(null);
     }
